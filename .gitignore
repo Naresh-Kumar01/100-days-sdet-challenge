@@ -1,0 +1,11 @@
+# Java compiled files
+*.class
+
+# JDBC Driver JARs
+*.jar
+
+# Archive files
+*.tar.gz
+
+# Ignore extracted MySQL Connector source
+mysql-connector-j-8.3.0/
