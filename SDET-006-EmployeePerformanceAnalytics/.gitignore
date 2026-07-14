@@ -1,0 +1,14 @@
+# Maven
+target/
+
+# Allure
+.allure/
+allure-results/
+allure-report/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
