@@ -54,14 +54,14 @@ else {
         System.out.print("Enter Password : ");
         String password = scanner.nextLine();
 
-        User user = loginService.login(username, password);
+        User loggedInUser = loginService.login(username, password);
 
-        if (user != null) {
+        if (loggedInUser != null) {
 
             System.out.println("\n===========================================");
             System.out.println("          LOGIN SUCCESSFUL");
             System.out.println("===========================================");
-            System.out.println(user);
+            System.out.println(loggedInUser);
 
         } else {
 
